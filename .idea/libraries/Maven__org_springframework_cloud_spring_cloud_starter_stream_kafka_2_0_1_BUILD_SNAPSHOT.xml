@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework.cloud:spring-cloud-starter-stream-kafka:2.0.1.BUILD-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Maven/repository/org/springframework/cloud/spring-cloud-starter-stream-kafka/2.0.1.BUILD-SNAPSHOT/spring-cloud-starter-stream-kafka-2.0.1.BUILD-20180515.134658-2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Maven/repository/org/springframework/cloud/spring-cloud-starter-stream-kafka/2.0.1.BUILD-SNAPSHOT/spring-cloud-starter-stream-kafka-2.0.1.BUILD-20180515.134658-2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Maven/repository/org/springframework/cloud/spring-cloud-starter-stream-kafka/2.0.1.BUILD-SNAPSHOT/spring-cloud-starter-stream-kafka-2.0.1.BUILD-20180515.134658-2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

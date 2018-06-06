@@ -1,0 +1,46 @@
+server:
+  port: 8881
+
+spring:
+  application:
+    name: config-client
+
+  cloud:
+    config:
+      lable: master
+      profile: dev
+      uri: http://localhost:8888/
+      discovery:
+        enabled: true
+        service-id: config-server
+#  rabbitmq:
+#    host: localhost
+#    port: 5672
+#    username: guest
+#    password: guest
+
+    stream:
+      default-binder: kafka
+      kafka:
+        binder:
+          brokers: localhost:9092
+          zk-nodes: localhost:2181
+      bindings:
+        springCloudBusInput:
+          destination: springCloudBus
+          #可以指定消费组，避免每次生成随机group
+          group: cloud-bus-testgroup
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8760/eureka/
+
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: ["health","info","bus-refresh"]

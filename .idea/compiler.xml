@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="client" />
+        <module name="config-client" />
+        <module name="config-client-kafka" />
+        <module name="config-server" />
+        <module name="config-server-kafka" />
+        <module name="eureka-server" />
+        <module name="server" />
+        <module name="service-feign" />
+        <module name="service-ribbon" />
+        <module name="service-sample" />
+        <module name="service-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="client" target="1.8" />
+      <module name="config-client" target="1.8" />
+      <module name="config-client-kafka" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="config-server-kafka" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="saas_server" target="1.5" />
+      <module name="server" target="1.8" />
+      <module name="service-feign" target="1.8" />
+      <module name="service-ribbon" target="1.8" />
+      <module name="service-sample" target="1.8" />
+      <module name="service-test" target="1.8" />
+      <module name="service-zuul" target="1.8" />
+      <module name="servicefeign" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

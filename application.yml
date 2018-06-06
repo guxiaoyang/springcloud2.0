@@ -1,0 +1,22 @@
+version: '3'
+services:
+  eurekaserver1:
+    image: wiseweb/eureka-server
+    ports:
+      - "7900:8900"
+    environment:
+      - spring.profiles.active=service-center1
+
+  eurekaserver2:
+    image: wiseweb/eureka-server
+    ports:
+      - "7800:8900"
+    environment:
+      - spring.profiles.active=service-center2
+
+  eurekaserver3:
+      image: wiseweb/eureka-server
+      ports:
+        - "7700:8900"
+      environment:
+        - spring.profiles.active=service-center3
